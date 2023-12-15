@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Users/USER/Desktop/clientpre"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tutorial"
+	}
+}

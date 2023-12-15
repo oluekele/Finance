@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/practice.css">
+        <link rel="icon" href='/title.jpg'
+          type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>New website learn</title>
+    </head>
+    <body>
+       
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><ion-icon class="logo" name="diamond-outline"></ion-icon>FILS</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" id="about" class="navbar__links">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" id="services" class="navbar__links">Services</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/" id="contact" class="button">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        <!-- Hero section -->
+        <div class="main">
+            
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>FILS GENERATION</h1>
+                    <h2>COMMITMENT</h2>
+                    <p>At FILS (Financial Law Specialist) we believe that every action we take as lawyers should lead to greater success for our clients. Our passion for service, deep business and financial services experience, and our sensible billing model, provide uncommon value without compromise.</p>
+                    
+                    
+                    <button id="aboutbtn" class="main__btn"><a href="/">Get Started</a></button>
+                </div>
+                <div class="main__img--container">
+                    <img  src="/law1.jpg" alt="pic" id="main__img">
+                </div>
+            </div>
+        </div>
+
+        <!-- services section -->
+        <div class="services">
+            <h1>See what FILS is about</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <img class="img2" src="/law0.png" alt="">
+                    <h2>Experience Blise</h2>
+                    <p>Every business is as unique as the entrepreneurs who drive them forward. We invest the time needed to fully understand your business, values, and goals and align our services to maximize effectiveness and impact. We build and nurture long-term relationships based on earned trust and measurable results.</p>
+                </div>
+                <div class="services__card">
+                    <img class='img4' src="/law4.jpg" alt="">
+                    <h2>WHAT WE CAN DO FOR YOU</h2>
+                    <div class="service_text2">
+                        <span>>  Regulatory Compliance</span>
+                        <span>>  Regulatory Compliance</span>
+                        <span>>  Real Estate</span>
+                        <span>>  Litigation, Arbitration & Investigation</span>
+                        <span>>  Real Estate</span>
+                        <span>>  Blockchain Technology & Digital Assests</span>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            <button id="servicebtn">Get Started</button>
+        </div>
+        <div class="contact">
+            <h3>LET'S TALK</h3>
+            <p>We are eager to learn about your business objectives and brainstorm on how we can help you achieve them.</p>
+            <div class='contactForm'>
+                <input  type='text' id='name' placeholder='Your name' name='name'/>
+                <input  type='email' id='email' placeholder='Your email' name='email'/>
+                <textarea name='message' cols='30' rows='5' placeholder='Your message' className='msg' id="message"></textarea>
+                <button type="submit" class='submitBtn'  onclick="sendMail()">Submit</button>
+                
+            </div>
+        </div>
+        <!-- Footer section -->
+
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__links--wrapper">
+                    <div class="footer__links--items">
+                        <h2>About Us</h2>
+                        <a href="/">How it works</a>
+                        <a href="/">Testimonals</a>
+                        <a href="/">Carrers</a>
+                        <a href="/">Ivestments</a>
+                        <a href="/">Term Services</a>
+                    </div>
+                    <div class="footer__links--items">
+                        <h2>Contact Us</h2>
+                        <a href="/">Contact</a>
+                        <a href="/">Support</a>
+                        <a href="/">Destinations</a>
+                        <a href="/">Sponsorships</a>
+                    </div>
+                </div>
+                <div class="footer__links--wrapper">
+                    <div class="footer__links--items">
+                        <h2>Videos</h2>
+                        <a href="/">Submit Video</a>
+                        <a href="/">Ambassadors</a>
+                        <a href="/">Agency</a>
+                        <a href="/">Influencer</a>
+                    </div>
+                    <div class="footer__links--items">
+                        <h2>Social Media</h2>
+                        <a href="/">Instagram</a>
+                        <a href="/">Facebook</a>
+                        <a href="/">Youtube</a>
+                        <a href="/">Twitter</a>
+                        <a href="/">Linkedln</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><ion-icon name="diamond-outline"></ion-icon>FILS</a>
+                    </div>
+                    <p class="website__right">&#x00A9; FILS 2023. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="https://www.instagram.com" class="socail__icon__link insta"  target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.facebook.com" class="socail__icon__link" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.youtube.com" class="socail__icon__link" id="youtube"  target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="https://www.twitter.com" class="socail__icon__link" id="twitter" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://www.linkedin.com" class="socail__icon__link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="/app.js"></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+        emailjs.init("OpWTj08c7VpAUBlNk");
+        })();
+
+       
+        </script>
+    </body>
+</html>
